@@ -8,7 +8,7 @@ import 'package:sqlite_board_app/screens/main_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();    // Flutter 프레임워크 초기화
-  // test
+  
   // 데이터 베이스 초기화 호출
   try{
     await DatabaseHelper.instance.database;
